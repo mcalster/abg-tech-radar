@@ -1,0 +1,49 @@
+title
+ABG Data Management Tech Radar
+===
+date
+2022-01-15
+===
+quadrant,   alias
+q1,         langlib
+q2,         data
+q3,         infra
+q4,         techtools
+===
+quadrant,   title
+q1,         Languages and frameworks
+q2,         Data management
+q3,         Infrastructure
+q4,         Tools and Techniques
+===
+name,                       quadrant,      ring,   description
+Java 8,                     langlib,       Hold,   
+Java 11,                    langlib,       Adopt,  
+Java 17,                    langlib,       Trial,  
+Kotlin,                     langlib,       Hold,  
+Scala,                      langlib,       Hold,   Scala
+Groovy,                     langlib,       Hold,   Groovy
+GoLang,                     langlib,       Assess, 
+Python 3,                   langlib,       Adopt,  Python
+Flask,                      langlib,       Adopt,
+FastApi,                    langlib,       Trial,
+Spring 5,                   langlib,       Adopt,  Application Framework
+Spring Boot,                langlib,       Adopt,  
+Log4j,                      langlib,       Hold,   Библиотека для логирования
+.NET Core 6 LTS,            langlib,       Adopt,  .NET
+.NET Core 5,                langlib,       Hold,   .NET
+
+OracleDB,                   data,          Adopt,  
+MsSQL,                      data,          Adopt,  SQL
+PostgreSQL,                 data,          Adopt,  
+Elasticsearch,              data,          Hold,
+MongoDB,                    data,          Assess, 
+Kafka,                      data,          Adopt,  Kafka topics
+
+Trunk-Based Development,    techtools,     Adopt,  
+SonarQube,                  techtools,     Adopt,
+
+Grafana,                    infra,         Hold,
+Kibana,                     infra,         Hold,
+Prometheus,                 infra,         Hold,
+Zipkin,                     infra,         Hold,
